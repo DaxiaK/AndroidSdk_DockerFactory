@@ -7,7 +7,7 @@ And you can create new android sdk docker image fastly by some variables.
 
 # Variables
 
-If you want to update the android sdk version , please update these two variables only:
+If you want to update the android sdk version , please update these variables only:
 
 **ANDROID_COMPILE_SDK: "28"**
   
@@ -17,6 +17,9 @@ If you want to update the android sdk version , please update these two variable
 
   Your build tools version. We also name the docker images tag by this variable.  
   
+**ANDROID_SDK_TOOLS: "26.1.1"**
+
+  Your sdk tools version.
   
 # Version
 
